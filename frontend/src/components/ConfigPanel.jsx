@@ -11,8 +11,8 @@ function ConfigPanel({setResults}) {
 
         setLoading(true); // Start loading
 
-        const response = await fetch(`http://127.0.0.1:8000/backtest?stock=${stock}&period=${period}`
-        );
+        const response = await fetch(`https://quantumtrade-ai-un7e.onrender.com/backtest?stock=${stock}&period=${period}`
+        );                          
 
         const data = await response.json();
         setResults(data);
