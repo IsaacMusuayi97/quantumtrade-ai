@@ -1,0 +1,7 @@
+.analytics-section{
+  width:90%;
+  margin:40px auto;
+  display:grid;
+  grid-template-columns:2fr 1fr;
+  gap:30px;
+}
